@@ -25,6 +25,6 @@ trPaqWBddU6r
 ```
 12. with the public certificate copied go back into your browser and Cloud console. You should still be at the list of service accounts and showing the service account you created. In the `Key ID` column your service account will show `No keys`. Click the service account email address and scroll down to the `Keys` section.
 13. Click `ADD KEY` and `Upload existing key`.
-14. In the box that says `Upload existing key` paste in the certificate text you copied from the Python script. Click `UPLOAD`.
+14. In the textbox that says `Upload existing key` paste in the certificate text you copied from the Python script. Click `UPLOAD`.
 15. Once uploaded your new Key will show in the list and be assigned a unique alphanumeric ID. Copy that ID, we'll need to paste it back into the gen_pk.py script.
 16. Enter the key ID you copied from the cloud console into the still runnig gen_pk.py Python script and hit enter. Now the script will print out the exact lines you need to add to your `secrets.py` file. These include the `private_key`, `private_key_id` and `service_account_email` attributes.
