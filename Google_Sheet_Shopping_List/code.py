@@ -147,8 +147,8 @@ except RuntimeError as error:
     # Usually it's a common network issue or time server hiccup.
     print('retrying later ', error)
 
-print('sleeping for {} minutes...'.format(SLEEP_MINUTES))
+print('sleeping for {} minutes...'.format(DEEP_SLEEP_MINUTES))
 # Go the f* to sleep
-sleep_seconds = SLEEP_MINUTES * 60
+sleep_seconds = DEEP_SLEEP_MINUTES * 60
 al = alarm.time.TimeAlarm(monotonic_time=time.monotonic() + sleep_seconds)
 alarm.exit_and_deep_sleep_until_alarms(al)
