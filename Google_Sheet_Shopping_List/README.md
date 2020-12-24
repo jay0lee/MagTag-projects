@@ -28,3 +28,19 @@ trPaqWBddU6r
 14. In the textbox that says `Upload existing key` paste in the certificate text you copied from the Python script. Click `UPLOAD`.
 15. Once uploaded your new Key will show in the list and be assigned a unique alphanumeric ID. Copy that ID, we'll need to paste it back into the gen_pk.py script.
 16. Enter the key ID you copied from the cloud console into the still runnig gen_pk.py Python script and hit enter. Now the script will print out the exact lines you need to add to your `secrets.py` file. These include the `private_key`, `private_key_id` and `service_account_email` attributes.
+17. Copy following libraries:
+```
+adafruit_bitmap_font/
+adafruit_display_shapes/
+adafruit_display_text/
+adafruit_hashlib/
+adafruit_io/
+adafruit_magtag/
+adafruit_portalbase/
+adafruit_rsa/
+adafruit_binascii.mpy
+adafruit_fakerquests.mpy
+adafruit_logging.mpy
+adafruit_requests.mpy
+neopixel.mpy
+simpleio.mpy
