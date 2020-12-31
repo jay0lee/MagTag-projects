@@ -40,6 +40,7 @@ adafruit_portalbase/
 adafruit_rsa/
 adafruit_binascii.mpy
 adafruit_fakerquests.mpy
+adafruit_jwt.mpy
 adafruit_logging.mpy
 adafruit_requests.mpy
 neopixel.mpy
