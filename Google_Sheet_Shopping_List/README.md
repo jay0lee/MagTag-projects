@@ -45,3 +45,11 @@ adafruit_logging.mpy
 adafruit_requests.mpy
 neopixel.mpy
 simpleio.mpy
+```
+18. Create your Google Sheet by going to [sheets.new](https://sheets.new) (.new is a cool trick for Google Docs. Also try [docs.new](docs.new), [slides.new](slides.new), [forms.new](forms.new)...)
+19. The sheet is very basic. Add some kind of header in A1 like "List" and then list your shopping items in column A. From your Sheet's URL copy the Sheet ID value.
+20. Share the Google Sheet with your service account email address you copied earlier. The service account only needs reader access.
+21. Copy the ID of the Sheet. If the browser URL when you open the Sheet is `https://docs.google.com/spreadsheets/d/1Q8RlCI3glZA7gXB6Wmdmkq1zS29j3_LFqc9x2qRan00/edit#gid=0` then your Sheet ID is `1Q8RlCI3glZA7gXB6Wmdmkq1zS29j3_LFqc9x2qRan00`
+22. Copy [code.py](https://raw.githubusercontent.com/jay0lee/MagTag-projects/main/Google_Sheet_Shopping_List/code.py) to your device. You need to edit the file and set `SHEET_ID='<ID from above>'`. There are a few other values you may wish to customize.
+
+Save and run!
